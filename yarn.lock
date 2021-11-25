@@ -1599,11 +1599,6 @@ foreach@^2.0.5:
   resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
   integrity sha1-C+4AUBiusmDQo6865ljdATbsG5k=
 
-formik-chakra-ui@^1.4.8:
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/formik-chakra-ui/-/formik-chakra-ui-1.4.8.tgz#656b9d8cfec06d3f9a463367dc9f755484fa4dd2"
-  integrity sha512-bHElnh27BHDXQfjjj3efNBk1ovSwCfj6SY8hIuMickDM7ETnPg3sMbStEoY74R/bfCwlW8MAlia3T6B4vJ7S3w==
-
 formik@^2.2.9:
   version "2.2.9"
   resolved "https://registry.yarnpkg.com/formik/-/formik-2.2.9.tgz#8594ba9c5e2e5cf1f42c5704128e119fc46232d0"
