@@ -6,6 +6,7 @@ import { InputField } from "../components/InputField";
 import { useRegisterMutation } from "../generated/graphql";
 import { toErrorMap } from "../utils/toErrorMap";
 import { useRouter } from "next/router";
+import { NavBar } from "../components/Navbar";
 
 interface registerProps {}
 
@@ -13,6 +14,8 @@ const Register: React.FC<registerProps> = ({}) => {
   const router = useRouter();
   const [, register] = useRegisterMutation();
   return (
+    <div>
+      <NavBar />
     <Wrapper variant="small">
       <Formik
         initialValues={{ username: "", password: "" }}
@@ -51,6 +54,7 @@ const Register: React.FC<registerProps> = ({}) => {
         )}
       </Formik>
     </Wrapper>
+    </div>
   );
 };
 
