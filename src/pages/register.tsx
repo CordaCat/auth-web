@@ -52,7 +52,7 @@ const Register: React.FC<registerProps> = ({}) => {
               mt={4}
               type="submit"
               isLoading={isSubmitting}
-              variantColor="teal"
+              variantcolor="teal"
             >
               register
             </Button>
